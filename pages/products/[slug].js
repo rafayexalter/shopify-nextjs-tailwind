@@ -2,6 +2,7 @@ import ProductPageContent from "../../components/ProductPageContent";
 import { getAllProducts, getProduct } from "../../lib/shopify";
 
 export default function ProductPage({ product }) {
+  console.log("product page", product);
   return (
     <div className="min-h-screen py-12 sm:pt-20">
       <ProductPageContent product={product} />
